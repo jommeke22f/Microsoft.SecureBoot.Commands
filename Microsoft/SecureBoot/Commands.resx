@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FV-SignatureHeaderSize" xml:space="preserve">
+    <value>Signature Header Size: {0}</value>
+  </data>
+  <data name="FV-SignatureType" xml:space="preserve">
+    <value>Signature Type: {0}</value>
+  </data>
+  <data name="FV-SignatureSize" xml:space="preserve">
+    <value>Signature Size: {0} (0x{1})</value>
+  </data>
+  <data name="FV-SignatureData" xml:space="preserve">
+    <value>Signature Data:</value>
+  </data>
+  <data name="InvalidCertificateModulus" xml:space="preserve">
+    <value>The size of the public key is invalid (Expected: 256).</value>
+  </data>
+  <data name="VarNotFoundException" xml:space="preserve">
+    <value>Variable is currently undefined: 0x{0}</value>
+  </data>
+  <data name="FV-HashIndex" xml:space="preserve">
+    <value>Formatting hash at index {0}.</value>
+  </data>
+  <data name="InvalidSecureBootState" xml:space="preserve">
+    <value>Secure Boot is in an invalid state.</value>
+  </data>
+  <data name="InvalidCertificateExponent" xml:space="preserve">
+    <value>The exponent of the algorithm is invalid (Expected: 0x10001).</value>
+  </data>
+  <data name="FV-FormattingWithKey" xml:space="preserve">
+    <value>Creating formatted file using public keys.</value>
+  </data>
+  <data name="SetPrivilegeFailed" xml:space="preserve">
+    <value>Unable to set proper privileges. Access was denied.</value>
+  </data>
+  <data name="InvalidGuid" xml:space="preserve">
+    <value>Invalid Guid </value>
+  </data>
+  <data name="SignableFileAndTimeRequired" xml:space="preserve">
+    <value>If SignableFilePath is supplied then Time is required.</value>
+  </data>
+  <data name="NTStatusException" xml:space="preserve">
+    <value>Unexpected Result, status error: 0x{0}</value>
+  </data>
+  <data name="FV-FormattingWithCert" xml:space="preserve">
+    <value>Creating formatted file using certificates.</value>
+  </data>
+  <data name="NotImplementedException" xml:space="preserve">
+    <value>Cmdlet not supported on this platform: 0x{0}</value>
+  </data>
+  <data name="FV-SignatureListSize" xml:space="preserve">
+    <value>Signature List Size: {0} (0x{1})</value>
+  </data>
+  <data name="InvalidHashSize" xml:space="preserve">
+    <value>Size of hash at index {0} is invalid.</value>
+  </data>
+  <data name="InvalidParameterName" xml:space="preserve">
+    <value>Parameter Name is invalid</value>
+  </data>
+  <data name="InvalidParameterAuth" xml:space="preserve">
+    <value>Authenticate and Time Based Authenticate are mutually exclusive.</value>
+  </data>
+  <data name="FV-SignatureOwner" xml:space="preserve">
+    <value>Signature Owner: {0}</value>
+  </data>
+  <data name="IncorrectFirmwareType" xml:space="preserve">
+    <value>This cmdlet is only supported on platforms with UEFI firmware.</value>
+  </data>
+  <data name="InvalidParameterSignTime" xml:space="preserve">
+    <value>SignedFile and Time arguments must both be present or absent.</value>
+  </data>
+  <data name="FV-CertIndex" xml:space="preserve">
+    <value>Formatting certificate at index {0}.</value>
+  </data>
+  <data name="Win32Exception" xml:space="preserve">
+    <value>Unexpected Result, Win32 error: {0}</value>
+  </data>
+  <data name="AccessVioloationException" xml:space="preserve">
+    <value>Incorrect authentication data: 0x{0}</value>
+  </data>
+  <data name="SecureBootNotEnabled" xml:space="preserve">
+    <value>Secure Boot policy is not enabled on this machine.</value>
+  </data>
+  <data name="FV-FormattingHashes" xml:space="preserve">
+    <value>Creating formatted file using hashes.</value>
+  </data>
+</root>

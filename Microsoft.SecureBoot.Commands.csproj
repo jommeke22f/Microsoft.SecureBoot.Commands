@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.SecureBoot.Commands\v4.0_10.0.0.0__31bf3856ad364e35\Microsoft.SecureBoot.Commands.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5FE10EF-516E-4344-9CAB-286A8B45A434}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.SecureBoot.Commands</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>10.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.SecureBoot.Commands</RootNamespace>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Management.Automation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrivilegesRequiredCommand.cs" />
+    <Compile Include="ConfirmSecureBootUefiCommand.cs" />
+    <Compile Include="SetSecureBootUefiCommand.cs" />
+    <Compile Include="GetSecureBootUefiCommand.cs" />
+    <Compile Include="FormatSecureBootUefiCommand.cs" />
+    <Compile Include="GetSecureBootPolicyCommand.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="StatusException.cs" />
+    <Compile Include="InvalidStateException.cs" />
+    <Compile Include="RegistryException.cs" />
+    <Compile Include="PolicyException.cs" />
+    <Compile Include="InvalidCertificateException.cs" />
+    <Compile Include="SbcpTemplatizerException.cs" />
+    <Compile Include="UEFIEnvironmentVariable.cs" />
+    <Compile Include="UEFIEnvironmentVariableAttributes.cs" />
+    <Compile Include="UEFIFormattedVariable.cs" />
+    <Compile Include="SecureBootPolicy.cs" />
+    <Compile Include="System\Runtime\CompilerServices\RefSafetyRulesAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Microsoft\SecureBoot\Commands.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
